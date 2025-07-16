@@ -43,14 +43,18 @@ const events = [
   <button class="bg-gray-800 px-4 py-2 text-white">List</button>
   </div>
   <div class="flex gap-4 mb-4 px-6 py-2 flex-1 justify-end">
-  <button class="bg-gray-800 px-4 py-2 rounded-lg text-white flex items-center gap-2">
-    All Services
-    <span class="text-lg">&#9660;</span>
-  </button>
-  <button class="bg-gray-800 px-4 py-2 rounded-lg text-white flex items-center gap-2">
-    All Tech
-    <span class="text-lg">&#9660;</span>
-  </button>
+   
+    <select class="bg-gray-800 px-4 py-2 rounded-lg text-white">
+      <option>All Services</option>
+      <option>Service 1</option>
+      <option>Service 2</option>
+  </select>
+
+  <select class="bg-gray-800 px-4 py-2 rounded-lg text-white">
+      <option>All Tech</option>
+      <option>Tech 1</option>
+      <option>Tech 2</option>
+  </select>
 </div>
 </div>
 
